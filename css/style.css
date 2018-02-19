@@ -1,0 +1,202 @@
+body {
+  background-color: white;
+  width: 960px;
+  margin: 0;
+}
+
+#a {
+  background-color: grey;
+  height: 75px;
+  width: 480px;
+  margin: 0px;
+  padding-left: 15px;
+  border: solid 1px black;
+}
+
+#b {
+  background-color: grey;
+  height: 150px;
+  width: 480px;
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: solid 1px black;
+}
+
+#c {
+  background-color: grey;
+  height: 125px;
+  width: 480px;
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: solid 1px black;
+}
+
+#d {
+  background-color: grey;
+  height: 125px;
+  width: 480px;
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: solid 1px black;
+}
+
+#block {
+  height: 480px;
+  width: 500px;
+  margin-right: 0px;
+}
+
+#e {
+  background-color: grey;
+  width: 240px;
+  height: 250px;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin: 0px;
+  border: solid 1px black;
+}
+
+#f {
+  background-color: grey;
+  position: absolute;
+  top: 528px;
+  left: 240px;
+  width: 240px;
+  height: 250px;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin: 0px;
+  float: right;
+  border: solid 1px black;
+}
+
+#g {
+  background-color: grey;
+  position: relative;
+  float: right;
+  width: 240px;
+  height: 250px;
+  margin: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border: solid 1px black;
+}
+
+#h {
+  background-color: grey;
+  position: absolute;
+  width: 235px;
+  height: 250px;
+  margin: 0px;
+  padding-top: 15px;
+  padding-left: 10px;
+  border: solid 1px black;
+  float: right;
+}
+
+footer {
+  background-color: grey;
+  margin-top: 53px;
+  height: 85px;
+  width: 480px;
+  padding-left: 15px;
+  padding-left: 15px;
+  border: solid 1px black;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: white;
+}
+
+#a {
+  background-color: grey;
+  height: 100px;
+  width: 960px;
+  margin: 0px;
+  padding-left: 15px;
+  border: solid 1px black;
+}
+
+#b {
+  background-color: grey;
+  height: 600px;
+  width: 200px;
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: solid 1px black;
+  float: left;
+}
+
+#c {
+  background-color: grey;
+  height: 200px;
+  width: 380px;
+  margin-left: 215px;
+  margin-right: 0;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: solid 1px black;
+}
+
+#d {
+  background-color: grey;
+  position: absolute;
+  top: 102px;
+  left: 396px;
+  height: 200px;
+  width: 380px;
+  float: right;
+  margin-left: 215px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: solid 1px black;
+}
+
+#block {
+  float: right;
+  position: inline-block;
+}
+
+#e{
+  position: absolute;
+  left: 215px;
+  width: 190px;
+  height: 250px;
+}
+
+#f{
+  position: absolute;
+  left: 420px;
+  top: 318px;
+  width: 190px;
+  height: 250px;
+}
+
+#g{
+  position: absolute;
+  left: 600px;
+  float: right;
+  width: 190px;
+  height: 250px;
+}
+
+#h{
+  position: absolute;
+  left: 800px;
+  float: right;
+  width: 190px;
+  height: 250px;
+}
+
+footer {
+  position: absolute;
+  left: 210px;
+  top: 520px;
+  width: 750px;
+  height: 150px;
+}
